@@ -14,7 +14,7 @@ namespace xadrezConsole
             tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(2, 4));
 
 
-            Tela.imprimirTabuleiro(tab);
+            Tela.ImprimirTabuleiro(tab);
             Console.ReadLine();
 
         }
